@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="face" cx="38%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#ffe98a"/>
+      <stop offset="38%" stop-color="#f3c64f"/>
+      <stop offset="72%" stop-color="#d19a26"/>
+      <stop offset="100%" stop-color="#8a5f10"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="45%" stop-color="#e5b94e"/>
+      <stop offset="100%" stop-color="#6e4c08"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="47" fill="#050403"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#rim)" stroke-width="6.5"/>
+  <circle cx="50" cy="50" r="31.5" fill="url(#face)" stroke="#7a5410" stroke-width="1.6"/>
+  <circle cx="50" cy="50" r="31.5" fill="none" stroke="#fff6c4" stroke-width="1" opacity="0.55" stroke-dasharray="3 5"/>
+  <path d="M50 33.5 L55.6 46 L69.3 46.2 L58.6 54.4 L62.5 67.6 L50 59.8 L37.5 67.6 L41.4 54.4 L30.7 46.2 L44.4 46 Z" fill="#5d3f06" opacity="0.92"/>
+  <path d="M50 37.2 L54.5 47.3 L65.4 47.4 L57 54.3 L60.4 64.9 L50 58.7 L39.6 64.9 L43 54.3 L34.6 47.4 L45.5 47.3 Z" fill="#ffe88a" opacity="0.95"/>
+</svg>
